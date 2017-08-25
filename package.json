@@ -4,7 +4,7 @@
   "version": "1.4.3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/plentymarkets/plugin-ceres.git"
+    "url": "https://github.com/njoychristian/plugin-ceres.git"
   },
   "scripts": {
     "merge": "git checkout development && git pull origin development && git checkout beta && git pull origin beta && git merge development && git push -u origin beta && git checkout stable && git pull origin stable && git merge beta && git push -u origin stable"
